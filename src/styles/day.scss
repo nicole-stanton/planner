@@ -1,3 +1,16 @@
-.header{
-    color: red;
+.days-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    &__day{
+        height: 300px;
+        width: 300px;
+        border: 1px solid #e8e8e8;
+        padding: 24px;
+
+        &__date{
+            font-size: 14px;
+            color: purple;
+        }
+    }
 }
